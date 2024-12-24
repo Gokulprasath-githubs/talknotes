@@ -1,0 +1,91 @@
+/* Center the form */
+.form-containers {
+    border: 2px solid rgb(129, 61, 13);
+    padding: 30px;
+    border-radius: 6px;
+    width: 200px;
+    background-color: #fdf5e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Align form fields */
+.form-field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style labels and inputs */
+.form-field label {
+    margin-bottom: 5px;
+    font-weight :normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-field input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+    
+  
+}
+
+/* Align buttons */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 10px;
+  
+   
+}
+
+/* Style buttons */
+button {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #deb887;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    
+   
+}
+
+button:hover {
+    background-color: #0f1419;
+}
+.header-boxd {
+    border: 2px solid rgb(129, 61, 13);
+    background-color: #ffcba4;
+    width: 130%;
+    padding: -20px;
+    text-align: left;
+    border-radius: 1px;
+    margin-top: -32px;
+    margin-left: -32px;
+    font-size: 6px;
+    font-weight:bolder;
+}
+
+/* Style Register Button */
+.register-button {
+    background-color: #32cd32; /* Green color */
+    color: rgb(0, 0, 0);
+}
+
+.register-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Style Login Button */
+.login-button {
+    background-color: #ad7117; /* Blue color */
+    color: rgb(19, 19, 19);
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Darker blue */
+}

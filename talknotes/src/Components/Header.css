@@ -1,0 +1,31 @@
+.header {
+    height: 60px;
+    display: flex;
+    background-color: #5ebaaf;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: #006b6b;
+}
+.titels{
+    padding: 20px;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.horizontal-container {
+    display: flex; /* Enables horizontal alignment */
+    gap: 10px; /* Adds space between the items */
+    align-items: center; /* Vertically centers items (if needed) */
+    justify-content: flex-end; /* Aligns items to the left */
+    position: absolute;
+    right: 0;
+    
+  }
+  
+  .horizontal-container > div {
+
+    padding: 10px; /* Adds some spacing inside each item */
+  }
